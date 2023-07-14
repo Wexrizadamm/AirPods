@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    ;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    background: #151515;
+
+}
+
+.nav {
+    background: #282828;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    padding: 6px;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__content {
+    display: flex;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+
+}
+
+
+.nav__icons {
+    display: flex;
+    column-gap: 25px;
+}
+
+.nav__logo {
+    margin-right: 30px;
+}
+
+.nav__link{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.header__content {
+    background: url(img/Header\ \(1\).png) center / cover no-repeat;
+    min-height: 635px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-title {
+    font-family: 'Prosto One';
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75px;
+    color: #FFFFFF;
+    margin-bottom: 38px;
+}
+
+.header__btn {
+    max-width: 200px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #171718;
+    padding: 13px;
+}
+
+.header__icon {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.headphones__white {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headphones__white-desc {
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    font-family: 'MM';
+    max-width: 538px;
+    width: 100%;
+}
+
+.headphones__white {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.headphones {
+    padding-top: 30px;
+}
+
+.headphones__black {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.headphones__white-desc {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+
+}
+
+.headphones__desc {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.headphones__one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headphones__one p {
+    max-width: 333px;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 255px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.cards {
+    margin-top: 79px;
+    margin-bottom: 55px;
+}
+
+.cards .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+
+}
+
+.card__img {
+    margin-bottom: 10px;
+}
+
+.card__desc {
+    margin-bottom: 20px;
+}
+
+.card__btn {
+    background: #151515;
+    max-width: 161px;
+    width: 100%;
+    padding: 7px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.cards-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 79px;
+}
+
+.footer {
+    background: #282828;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+    padding: 80px 0;
+}
+
+.footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__icons {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 29px;
+}
+.footer__list{
+display: flex;
+align-items: center;
+justify-content: center;
+column-gap: 30px;
+}
+.footer__logo{
+    margin-right: 30px;
+    }
+    
+.footer__link{
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+color: #FFFFFF;
+}
+
+
